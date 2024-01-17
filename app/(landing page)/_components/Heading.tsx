@@ -1,6 +1,5 @@
-import { Button } from '@/components/ui/button'
-import { ArrowLeft, ArrowRight } from 'lucide-react'
 import React from 'react'
+import AuthButtons from './AuthButtons';
 
 type Props = {}
 
@@ -14,11 +13,7 @@ function Heading({}: Props) {
               Welcome to <span className='underline'>Motion</span>
       </h1>
 
-      <Button
-        className='gap-x-2'>
-        Join Now
-        <ArrowRight />
-      </Button>
+      <AuthButtons />
 
     </div>
   )
